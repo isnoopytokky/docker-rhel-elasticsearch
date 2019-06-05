@@ -22,3 +22,8 @@ imagestream "elasticsearch" created
 ```bash
 $ oc delete all -l app=elasticsearch
 ```
+
+## Expose service for elasticsearch
+```bash
+oc expose service elasticsearch
+```
