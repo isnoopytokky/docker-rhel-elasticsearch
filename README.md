@@ -25,5 +25,5 @@ $ oc delete all -l app=elasticsearch
 
 ## Expose service for elasticsearch
 ```bash
-oc expose service elasticsearch
+$ oc expose service elasticsearch
 ```
